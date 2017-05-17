@@ -271,13 +271,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image:url(../img/header-bg.jpg), url(../img/header-bg1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed-top;
-    background-position: center;
+    background-position: right,top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size:cover;
+    background-size:auto,cover;
     -o-background-size: cover;
     text-align: center;
     color: #fff;
@@ -311,7 +311,7 @@ header .intro-text .intro-heading {
 }
 
 @media (min-width:768px) {
-    header .intro-text {
+     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px
     }
