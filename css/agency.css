@@ -351,11 +351,11 @@ section h3.section-subheading {
     margin-bottom: 75px
 }
 
-@media (min-width:768px) {
+/*@media (min-width:768px) {
     section {
         padding: 20px 0
     }
-}
+}*/
 
 .service-heading {
     margin: 15px 0;
